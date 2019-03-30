@@ -1,33 +1,32 @@
-.App {
+ul {
+  /*删除边距和填充*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 35px;
+  position: fixed;
+  overflow: auto;
+  border: 1px solid #ffffff;
+  opacity: 0.5;
+}
+
+/* li {
+  display: inline;
+  background-color: #f1f1f1;
+  padding: 8px 16px;
+  text-decoration: none;
   text-align: center;
+  border-bottom: 0px solid #555555;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+li:last-child {
+  border-bottom: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+li:hover {
+  background-color: #0fbde9;
+  columns: white;
+} */

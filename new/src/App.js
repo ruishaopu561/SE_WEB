@@ -2,20 +2,16 @@ import React, { Component } from 'react';
 import './App.css';
 
 import AppRoute from './AppRoute';
-
-import pic1 from './image/1.jpg';
+import Footer from './Footer/Footer';
+import Inquiry from './Inquiry/Inquiry';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="header">
-          <img class  Name="pic" src={pic1} alt="pic"/>
-        </div>
-        <AppRoute className="route"/>
-        <div className="footer">
-          Ruishaopu ©2019 Created, all rights reserved.
-        </div>
+        {/* <AppRoute className="route"/> */}
+        <Inquiry></Inquiry>
+        {/* <Footer>Ruishaopu ©2019 Created, all rights reserved.</Footer> */}
       </div>
     );
   }

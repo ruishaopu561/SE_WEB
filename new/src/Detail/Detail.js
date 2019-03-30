@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import pic from './image/3.jpeg';
+import pic from '../image/2.jpeg';
+import './detail.css';
 
 class Detail extends Component {
     constructor(){
@@ -28,13 +29,11 @@ class Detail extends Component {
             <div className="introduce">
                 <div className="show">
                     <img className="sample" src={pic} alt="Sample"/>
-                    <br/>
-                    name:<p className="book-name">xxxx</p>
-                    <br/>
-                    price:$xxx
+                    <p className="book-name">xxxx</p>
+                    <p>price:$xxx</p>
                 </div>
                 <div className="inputText">
-                    <input className="text" value="Introduction"/>
+                    <input className="text" type="text" defaultValue="Introduction"/>
                 </div>
             </div>
         )

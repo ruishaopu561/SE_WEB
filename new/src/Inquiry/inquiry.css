@@ -1,0 +1,88 @@
+.ui-jqgrid{
+    width: 305px;
+}
+
+.loading {
+    display: none;
+    z-index: 101;
+    position: absolute;
+    top: 207px;
+}
+
+.ui-jqgrid-view {
+    width: 1000px;
+    text-align: center;
+}
+
+.ui-jqgrid-titlebar {
+    display: none;
+}
+
+.ui-state-default ui-jqgrid-hdiv {
+    width: 300px;
+    z-index: 1000;
+}
+
+.ui-jqgrid-htable {
+    text-align: center;
+    width: 1000px
+}
+
+.ui-th-ltr {
+    width: 40px;
+}
+
+.s-ico {
+    display:none
+}
+
+.ui-jqgrid-resize {
+    cursor: col-resize;
+}
+
+.ui-sortable-handle {
+    width: 30px;
+}
+
+.input {
+  font-size: 14px;
+  font-family: arial;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  height: 36px;
+  background: #fafafa;
+  color: #9e9c9c;
+  border: 2px solid #628DFF;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 240px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 5px;
+  outline: none;
+}
+  
+.button {
+  padding: 0;
+  margin: 0;
+  border: 2px solid #628DFF;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  height: 40px;
+  line-height: 38px;
+  padding: 0 12px;
+  background: #628DFF;
+  color: #fff;
+}
+
+.chosen-container {
+  width: 100%;
+}
+
+.form-control {
+    display: none;
+}

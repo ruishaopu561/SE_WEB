@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './App.css';
-import pic from './image/3.jpeg';
+import pic from '../image/2.jpeg';
+import './scan.css';
 
 class Scan extends Component {
     render(){
         return (
             <div className="scan">
-                <div>
-                    <input className="search" type="search" value="ebook"/>
+                <div id="quickly-search">
+                    <p><input className="search_input" type="text" id="username" defaultValue="book name"/><button className="search_button">SEARCH</button></p>
                 </div>
-                <div className="sug">
-                    <p>重点推荐>>></p><br/>
-                    <div className="note">
+                <div className="highly-recommented">
+                    <p className="word">重点推荐>>></p><br/>
+                    <div className="recomment">
                         <div className="sam"><img src={pic} alt="Sample"/></div>
                         <div className="sam"><img src={pic} alt="Sample"/></div>
                         <div className="sam"><img src={pic} alt="Sample"/></div>
@@ -24,7 +24,7 @@ class Scan extends Component {
                         <div className="sam"><img src={pic} alt="Sample"/></div>
                     </div>
                 </div>
-                <div className="book">
+                <div className="container">
                         <div className="sam"><img src={pic} alt="Sample"/></div>
                         <div className="sam"><img src={pic} alt="Sample"/></div>
                         <div className="sam"><img src={pic} alt="Sample"/></div>
@@ -36,28 +36,27 @@ class Scan extends Component {
                         <div className="sam"><img src={pic} alt="Sample"/></div>
                         <div className="sam"><img src={pic} alt="Sample"/></div>
                 </div>
-                <div className="sea">
+                <div className="right-part">
                     <div>
-                        <p>热门搜索>>></p>
+                        <p className="word">热门搜索>>></p>
                         <br/>
-                        <table>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
-                            <tr><td>Age</td></tr>
+                        <table className="popular-searches">
+                            <tr><td>1.xxxx</td></tr>
+                            <tr><td>2.xxxx</td></tr>
+                            <tr><td>3.xxxx</td></tr>
+                            <tr><td>4.xxxx</td></tr>
+                            <tr><td>5.xxxx</td></tr>
+                            <tr><td>6.xxxx</td></tr>
+                            <tr><td>7.xxxx</td></tr>
+                            <tr><td>8.xxxx</td></tr>
+                            <tr><td>9.xxxx</td></tr>
+                            <tr><td>10.xxxx</td></tr>
                         </table>
                     </div>
                     <br/>
                     <div>
-                        <p>畅销排行榜>>></p>
-                        {/* <br/> */}
-                        <div className="sug">
+                        <p className="word">畅销排行榜>>></p>
+                        <div className="best-seller-ranking">
                             <div className="sam"><img src={pic} alt="Sample"/></div>
                             <div className="sam"><img src={pic} alt="Sample"/></div>
                             <div className="sam"><img src={pic} alt="Sample"/></div>
