@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 
 import Scan from './Scan/Scan';
 import Home from './Login/Login';
@@ -9,7 +9,7 @@ import Detail from './Detail/Detail';
 class Approute extends Component {
     render(){
         return(
-            <Router className="route">
+            <BrowserRouter className="route">
                 <header>
                     <ul>
                         <li><Link to="home">Home</Link></li>
@@ -17,12 +17,14 @@ class Approute extends Component {
                         <li><Link className="right" to="detail">Detail</Link></li>
                         <li><Link to="inquiry">Inquiry</Link></li>
                     </ul>
-                    <Route path="/home" component={Home}/>
-                    <Route path="/scan" component={Scan}/>
-                    <Route path="/detail" component={Detail}/>
-                    <Route path="/inquiry" component={Inquiry}/>
+                    <Switch>
+                        <Route path="/home" component={Home}/>
+                        <Route path="/scan" component={Scan}/>
+                        <Route path="/detail" component={Detail}/>
+                        <Route path="/inquiry" component={Inquiry}/>
+                    </Switch>
                 </header>
-            </Router>
+            </BrowserRouter>
         )
     }
 }

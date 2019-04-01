@@ -26,7 +26,7 @@
     border-radius: 10px;
     text-align: center;
 }
-  
+
 form p>* {
     display: inline-block;
     vertical-align: middle;
@@ -37,7 +37,7 @@ form p>* {
     opacity: 0.65;
 }
   
-/* .label_input {
+.label_input {
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;  
     width: 65px;
@@ -48,7 +48,7 @@ form p>* {
     background-color: #3cd8ff;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-} */
+}
   
 .text_field {
     width: 278px;
@@ -89,4 +89,5 @@ form p>* {
   
 #login_control {
     padding: 0 28px;
-}  
+}
+

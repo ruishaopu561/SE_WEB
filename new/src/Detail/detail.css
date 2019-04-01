@@ -4,16 +4,10 @@
     text-align: center;
   }
   
-  /* .show { */
-    /* float: left; */
-  /* } */
-  
   .inputText {
-    /* float: right; */
     text-align: center;
     width: 50%;
     border-bottom: 0px solid #0fbde9;
-    /* height: 400px; */
   }
   
   .text {
@@ -21,7 +15,6 @@
     width: 600px;
     height: 400px;
   
-    /* height: 20px; */
     line-height: 20px;
     position: relative;
     cursor: pointer;

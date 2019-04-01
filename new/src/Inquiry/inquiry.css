@@ -86,3 +86,129 @@
 .form-control {
     display: none;
 }
+
+.btn_login{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;  
+    width: 200px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3bd9ff;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
+
+.paper {
+    width: 1200px;
+    height: 500px;
+    padding: 13px;
+  
+    position: absolute;
+    left: 400px;
+    top: 30%;
+    margin-left: -100px;
+    margin-top: -200px;
+  
+    background-color: rgba(240, 255, 255, 0.5);
+  
+    border-radius: 10px;
+    text-align: center;
+}
+
+.search_feild{
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+
+.col{
+    width:160px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #ccc;
+    position: relative;
+}
+
+select{
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 30px;
+    line-height: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 50px;
+}
+
+.col:after{
+    content: "";
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    /* top: 45%; */
+    pointer-events: none;
+}
+
+.manage{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;  
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3bd9ff;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
+
+.left-part{
+    float: left;
+    width: 300px;
+    left: 50px;
+    margin-left: 50px;
+}
+
+.recomment{
+    width: 60%;
+    padding: 1em;
+    border: none;
+    overflow: auto;
+    line-height: 1.45;
+    max-height: 50em;
+    position: relative;
+  }
+  
+  .recomment::-webkit-scrollbar{
+    width: 10px;
+    background-color: white;
+  }
+  
+  .recomment::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+  
+  .recomment::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+  
+  .recomment::-webkit-scrollbar-button:start {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+  }
+  .recomment::-webkit-scrollbar-button:end {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+  }

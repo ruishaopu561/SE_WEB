@@ -1,8 +1,8 @@
 /*footer*/
-p {
+footer {
   background: #77daf3;
   height: 50px;
-  padding-top: 30px;
+  padding-top: 35px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -10,6 +10,6 @@ p {
   opacity: 0.6;
 }
   
-p:hover {  
+footer:hover {
   opacity: 1.0;
 }

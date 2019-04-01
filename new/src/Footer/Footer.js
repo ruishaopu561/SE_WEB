@@ -5,9 +5,9 @@ class Footer extends Component {
     render(){
         return(
             <div>
-                <p>
+                <footer>
                    {this.props.children}
-                </p>
+                </footer>
             </div>
         )
     }
