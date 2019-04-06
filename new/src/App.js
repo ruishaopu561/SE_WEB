@@ -7,7 +7,7 @@ import Login from './Login/Login';
 // import AppRoute from './AppRoute';
 // import Inquiry from './Inquiry/Inquiry';
 // import Book from './Inquiry/Book';
-// import ManageBook from './Inquiry/ManageBooks';
+import ManageBook from './Inquiry/ManageBooks';
 // import Signup from './Login/Signup';
 
 class App extends Component {

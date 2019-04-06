@@ -52,7 +52,7 @@ class Home extends Component {
               </div>
               <div>
                 <button id="btn_login">
-                  <Link to="../Inquiry/Scan">管理员登录</Link>
+                  <Link to="../Inquiry/ManageBooks">管理员登录</Link>
                 </button>
               </div>
             </form>
