@@ -51,7 +51,7 @@ class Shopcart extends Component {
                                         {item.stock}
                                     </td>
                                     <td align="right">
-                                        <Link to={this.handleLink(index)}>查看详情</Link>
+                                        {/* <Link to={this.handleLink(index)}>查看详情</Link> */}
                                     </td>
                                 </tr>
                             )
